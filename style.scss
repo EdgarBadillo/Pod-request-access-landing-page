@@ -1,0 +1,30 @@
+:root{
+
+    $ligh-green: #54e6af;
+    $mid-green: #5a668a;
+    $str-green: #2c344b;
+    $grey: #c2cbe5;
+    $black: #121725;
+
+    %center-flex{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    %background-img{
+
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    %filter{
+
+        background-color: $black;
+
+    }
+
+
+}
