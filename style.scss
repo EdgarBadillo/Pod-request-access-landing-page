@@ -147,6 +147,7 @@ p{
     padding: 0;
     margin: 0;
     border: 0;
+
     
       
         .background-input{
@@ -172,7 +173,10 @@ p{
            
         }
     } 
+    .input_error{
 
+        display: none;
+    }
     .submit-btn{
 
         width: 327px;
@@ -313,6 +317,9 @@ p{
         background-position: bottom ;
         
     }
+
+    
+
 }
 
 @media screen and (min-width:1024px){
@@ -350,6 +357,19 @@ p{
         left: 1040px;
         background-position: unset;
         height: 104px;
+    }
+
+    .input_error{
+
+        
+        z-index: 9999;
+        display: none;
+    }
+
+    .input_error-active{
+        display: block;
+        z-index: 9999 ;
+        color: red;
     }
     
     
