@@ -144,6 +144,15 @@ body {
   border-width: 0;
 }
 
+.validation .input_error {
+  display: none;
+}
+
+.validation .input_error-active {
+  display: block;
+  color: red;
+}
+
 .validation .submit-btn {
   width: 327px;
   height: 46px;
@@ -290,6 +299,15 @@ body {
     left: 1040px;
     background-position: unset;
     height: 104px;
+  }
+  .input_error {
+    z-index: 9999;
+    display: none;
+  }
+  .input_error-active {
+    display: block;
+    z-index: 9999;
+    color: red;
   }
 }
 /*# sourceMappingURL=style.css.map */
